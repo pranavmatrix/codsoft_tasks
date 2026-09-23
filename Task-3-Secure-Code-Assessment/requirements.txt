@@ -1,0 +1,8 @@
+# Task 3 Secure Code Assessment
+# No external Python packages are required.
+# Uses Python standard library:
+# sqlite3
+# hashlib
+# secrets
+# hmac
+# getpass
