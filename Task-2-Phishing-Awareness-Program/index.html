@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Phishing Awareness Program</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="hero">
+    <nav>
+        <div class="logo">PhishGuard</div>
+
+        <div class="nav-links">
+            <a href="#learn">Learn</a>
+            <a href="#examples">Examples</a>
+            <a href="#tips">Security Tips</a>
+            <a href="#quiz">Quiz</a>
+        </div>
+    </nav>
+
+    <div class="hero-content">
+        <p class="tag">CYBERSECURITY AWARENESS</p>
+
+        <h1>
+            Don't Get Hooked.
+            <span>Recognize Phishing.</span>
+        </h1>
+
+        <p>
+            Learn how cybercriminals use deceptive emails, websites and
+            social engineering to steal information—and how you can protect
+            yourself.
+        </p>
+
+        <a href="#learn" class="button">Start Learning</a>
+    </div>
+</header>
+
+
+<main>
+
+    <!-- Introduction -->
+
+    <section id="learn" class="section">
+
+        <div class="section-heading">
+            <p class="tag">01 — UNDERSTANDING PHISHING</p>
+
+            <h2>What is phishing?</h2>
+
+            <p>
+                Phishing is a cyberattack in which an attacker impersonates
+                a trustworthy person, company or service to trick a victim
+                into revealing sensitive information or performing an
+                unsafe action.
+            </p>
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="icon">✉</div>
+                <h3>Email Phishing</h3>
+                <p>
+                    Fraudulent emails designed to trick users into clicking
+                    malicious links, opening attachments or revealing
+                    personal information.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">📱</div>
+                <h3>Smishing</h3>
+                <p>
+                    Phishing attacks delivered through SMS or messaging
+                    applications.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">☎</div>
+                <h3>Vishing</h3>
+                <p>
+                    Voice-based phishing where attackers use phone calls
+                    or voice messages to impersonate trusted organizations.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🎯</div>
+                <h3>Spear Phishing</h3>
+                <p>
+                    A targeted attack designed specifically for a particular
+                    person or organization.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Warning signs -->
+
+    <section class="section alternate">
+
+        <div class="section-heading">
+
+            <p class="tag">02 — WARNING SIGNS</p>
+
+            <h2>How to identify a suspicious message</h2>
+
+        </div>
+
+        <div class="warning-grid">
+
+            <div class="warning">
+                <strong>01</strong>
+
+                <div>
+                    <h3>Urgent language</h3>
+
+                    <p>
+                        Messages that demand immediate action such as
+                        "Your account will be deleted today."
+                    </p>
+                </div>
+            </div>
+
+            <div class="warning">
+                <strong>02</strong>
+
+                <div>
+                    <h3>Unknown sender</h3>
+
+                    <p>
+                        Check the complete sender address rather than relying
+                        only on the displayed name.
+                    </p>
+                </div>
+            </div>
+
+            <div class="warning">
+                <strong>03</strong>
+
+                <div>
+                    <h3>Suspicious links</h3>
+
+                    <p>
+                        Hover over links before clicking and verify the
+                        destination domain.
+                    </p>
+                </div>
+            </div>
+
+            <div class="warning">
+                <strong>04</strong>
+
+                <div>
+                    <h3>Unexpected attachments</h3>
+
+                    <p>
+                        Be cautious with unexpected files, especially
+                        executable or macro-enabled documents.
+                    </p>
+                </div>
+            </div>
+
+            <div class="warning">
+                <strong>05</strong>
+
+                <div>
+                    <h3>Requests for secrets</h3>
+
+                    <p>
+                        Legitimate organizations generally should not ask
+                        you to send passwords or authentication codes
+                        through email.
+                    </p>
+                </div>
+            </div>
+
+            <div class="warning">
+                <strong>06</strong>
+
+                <div>
+                    <h3>Unexpected payment requests</h3>
+
+                    <p>
+                        Verify unusual payment or account-change requests
+                        through an independent communication channel.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Fake website -->
+
+    <section class="section" id="examples">
+
+        <div class="section-heading">
+
+            <p class="tag">03 — WEBSITE SAFETY</p>
+
+            <h2>Spot a fake login page</h2>
+
+            <p>
+                Attackers often create websites that imitate popular
+                services. Before entering credentials, examine the
+                website carefully.
+            </p>
+
+        </div>
+
+        <div class="fake-login">
+
+            <div class="browser-bar">
+                <span class="browser-dot"></span>
+                <span class="browser-dot"></span>
+                <span class="browser-dot"></span>
+
+                <div class="fake-url">
+                    http://secure-example-login.test
+                </div>
+            </div>
+
+            <div class="login-content">
+
+                <div class="warning-label">
+                    ⚠ TRAINING EXAMPLE
+                </div>
+
+                <h3>Account Sign In</h3>
+
+                <p class="login-description">
+                    This is an educational example of a login page.
+                </p>
+
+                <label>Email address</label>
+                <input type="text" placeholder="name@example.com">
+
+                <label>Password</label>
+                <input type="password" placeholder="Password">
+
+                <button type="button" onclick="showDemoMessage()">
+                    Sign In
+                </button>
+
+                <p id="demo-message" class="demo-message"></p>
+
+            </div>
+
+        </div>
+
+        <div class="checklist">
+
+            <div>
+                <span>✓</span>
+                Check the domain name.
+            </div>
+
+            <div>
+                <span>✓</span>
+                Look for HTTPS, but remember that HTTPS alone does not
+                prove a website is legitimate.
+            </div>
+
+            <div>
+                <span>✓</span>
+                Avoid logging in through links from unexpected messages.
+            </div>
+
+            <div>
+                <span>✓</span>
+                Use bookmarks or manually enter the official website.
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Social engineering -->
+
+    <section class="section alternate">
+
+        <div class="section-heading">
+
+            <p class="tag">04 — SOCIAL ENGINEERING</p>
+
+            <h2>How attackers manipulate people</h2>
+
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Authority</h3>
+
+                <p>
+                    The attacker pretends to be a manager, bank employee,
+                    government official or technical-support agent.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Fear</h3>
+
+                <p>
+                    The victim is told that an account, payment or service
+                    will be suspended unless immediate action is taken.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Urgency</h3>
+
+                <p>
+                    The attacker creates time pressure so the victim does
+                    not stop to verify the request.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Curiosity</h3>
+
+                <p>
+                    Attackers may use interesting subjects, unexpected
+                    documents or sensational claims to encourage clicks.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Case studies -->
+
+    <section class="section">
+
+        <div class="section-heading">
+
+            <p class="tag">05 — CASE STUDIES</p>
+
+            <h2>Real-world phishing incidents</h2>
+
+        </div>
+
+        <div class="case-study">
+
+            <h3>Google and Facebook phishing fraud</h3>
+
+            <p>
+                A well-known business email compromise case involved an
+                attacker impersonating a vendor and sending fraudulent
+                invoices. The campaign used social engineering and
+                convincing business communications to persuade employees
+                to transfer funds.
+            </p>
+
+            <div class="lesson">
+                <strong>Security lesson:</strong>
+                Payment or vendor changes should be independently verified
+                using a trusted communication channel.
+            </div>
+
+        </div>
+
+        <div class="case-study">
+
+            <h3>Fake password-reset messages</h3>
+
+            <p>
+                Password-reset themed phishing campaigns commonly imitate
+                legitimate online services. Victims may be directed to a
+                fake login page where credentials can be collected.
+            </p>
+
+            <div class="lesson">
+                <strong>Security lesson:</strong>
+                Instead of following an unexpected password-reset link,
+                visit the service through its official website or app.
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Security tips -->
+
+    <section id="tips" class="section alternate">
+
+        <div class="section-heading">
+
+            <p class="tag">06 — PROTECTION</p>
+
+            <h2>Practical security habits</h2>
+
+        </div>
+
+        <div class="tips-list">
+
+            <div class="tip">
+                <span>01</span>
+                <p>
+                    <strong>Use multi-factor authentication.</strong>
+                    MFA provides additional protection if a password is
+                    compromised.
+                </p>
+            </div>
+
+            <div class="tip">
+                <span>02</span>
+                <p>
+                    <strong>Verify unexpected requests.</strong>
+                    Contact the person or organization using a trusted
+                    channel.
+                </p>
+            </div>
+
+            <div class="tip">
+                <span>03</span>
+                <p>
+                    <strong>Use strong, unique passwords.</strong>
+                    Never reuse important passwords across multiple services.
+                </p>
+            </div>
+
+            <div class="tip">
+                <span>04</span>
+                <p>
+                    <strong>Keep software updated.</strong>
+                    Security updates help protect against known
+                    vulnerabilities.
+                </p>
+            </div>
+
+            <div class="tip">
+                <span>05</span>
+                <p>
+                    <strong>Report suspicious messages.</strong>
+                    Use your organization's reporting process or the
+                    relevant service provider.
+                </p>
+            </div>
+
+            <div class="tip">
+                <span>06</span>
+                <p>
+                    <strong>Slow down.</strong>
+                    When a message creates pressure, stop and verify before
+                    taking action.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Quiz -->
+
+    <section id="quiz" class="section quiz-section">
+
+        <div class="section-heading">
+
+            <p class="tag">07 — KNOWLEDGE CHECK</p>
+
+            <h2>Test your phishing awareness</h2>
+
+            <p>
+                Answer the questions below and check your score.
+            </p>
+
+        </div>
+
+        <form id="quiz-form">
+
+            <div class="question">
+
+                <h3>1. Which is a common warning sign of phishing?</h3>
+
+                <label>
+                    <input type="radio" name="q1" value="a">
+                    A. An unexpected urgent request for sensitive information
+                </label>
+
+                <label>
+                    <input type="radio" name="q1" value="b">
+                    B. A message you expected from a known contact
+                </label>
+
+                <label>
+                    <input type="radio" name="q1" value="c">
+                    C. A normal calendar reminder
+                </label>
+
+            </div>
+
+
+            <div class="question">
+
+                <h3>2. What should you do with an unexpected login link?</h3>
+
+                <label>
+                    <input type="radio" name="q2" value="a">
+                    A. Click it immediately
+                </label>
+
+                <label>
+                    <input type="radio" name="q2" value="b">
+                    B. Forward it to friends
+                </label>
+
+                <label>
+                    <input type="radio" name="q2" value="c">
+                    C. Navigate to the official website independently
+                </label>
+
+            </div>
+
+
+            <div class="question">
+
+                <h3>3. What is smishing?</h3>
+
+                <label>
+                    <input type="radio" name="q3" value="a">
+                    A. Phishing through SMS or text messages
+                </label>
+
+                <label>
+                    <input type="radio" name="q3" value="b">
+                    B. Physical theft
+                </label>
+
+                <label>
+                    <input type="radio" name="q3" value="c">
+                    A type of firewall
+                </label>
+
+            </div>
+
+
+            <div class="question">
+
+                <h3>4. Which action provides additional protection if a password is stolen?</h3>
+
+                <label>
+                    <input type="radio" name="q4" value="a">
+                    A. Disabling security updates
+                </label>
+
+                <label>
+                    <input type="radio" name="q4" value="b">
+                    B. Multi-factor authentication
+                </label>
+
+                <label>
+                    <input type="radio" name="q4" value="c">
+                    C. Reusing the same password
+                </label>
+
+            </div>
+
+
+            <div class="question">
+
+                <h3>5. What is a good response to an unusual payment request?</h3>
+
+                <label>
+                    <input type="radio" name="q5" value="a">
+                    A. Verify it using a trusted communication channel
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="b">
+                    B. Pay immediately
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="c">
+                    Ignore all security procedures
+                </label>
+
+            </div>
+
+
+            <button type="button" class="submit-button" onclick="calculateScore()">
+                Submit Quiz
+            </button>
+
+        </form>
+
+        <div id="quiz-result" class="quiz-result"></div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <h3>PhishGuard</h3>
+
+    <p>
+        Phishing Awareness Program — Educational Cybersecurity Project
+    </p>
+
+    <p>
+        Created for educational purposes.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
